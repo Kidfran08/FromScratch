@@ -1,0 +1,127 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-21T19:00:21.949Z",
+        "line": 5,
+        "name": "Go to google",
+        "description": "",
+        "id": "search;go-to-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "i am on google",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "i search on google",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "i should see blues hockey",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@User"
+          },
+          {
+            "name": "@User"
+          }
+        ]
+      }
+    ],
+    "name": "search",
+    "description": "  As a user i should be able to search for blues hockey on google",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuers/google/Google.feature",
+    "tags": [
+      {
+        "name": "@User",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-21T19:00:22.086Z",
+        "line": 3,
+        "name": "Login with correct credentials",
+        "description": "",
+        "id": "login-functionailty;login-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "i am on the login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "i entered the correct credentials",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "i click login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "i should be on the homepage",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionailty",
+    "description": "",
+    "id": "login-functionailty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuers/google/Login.feature",
+    "tags": []
+  }
+]
